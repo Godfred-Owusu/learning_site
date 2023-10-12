@@ -1,4 +1,5 @@
 import './App.css';
+import { Companies } from './Components/Companies/Companies';
 import { Hero } from './Components/Hero/Hero';
 import { HeroCard } from './Components/HeroCards/HeroCard';
 import { NavBar } from './Components/NavBar/NavBar';
@@ -14,6 +15,7 @@ function App() {
       <HeroCard />
       </div>
       <Services />
+      <Companies />
     </div>
   );
 }
