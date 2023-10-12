@@ -1,0 +1,44 @@
+
+.nav_toggle{
+    display: none;
+}
+@media screen and (max-width: 675px) {
+    .nav_toggle{
+        display: block;
+    }
+    .desk-link{
+        display: none;
+    }
+    .nav_links{
+       position: fixed;
+       top: 7vh;
+       right: 0;
+       width: 50%;
+       height: 93vh ;
+       background-color: #184C99;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       transform: translate(100%);
+       transition: 0.3s ease-in;
+    }
+    .nav_links>a, .nav_links>button{
+        margin-bottom: 50px;
+        width: 80%
+    }
+}
+
+.nav_active{
+    transform: translate(0);
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-3px, 15px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-3px, -15px);
+}
