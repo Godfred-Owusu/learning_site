@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <div className='relative w-full'>
-        <img className='lg:w-full md:min-h-[50%] sm:min-h-[50%] absolute top-0 left-0 w-full' src='./img/bg.png' alt='hero'/>
+        <img className=' absolute top-0 left-0 w-full' src='./img/bg.png' alt='hero'/>
       <NavBar />
       <Hero />
       <HeroCard />
