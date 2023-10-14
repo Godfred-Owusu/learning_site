@@ -32,9 +32,9 @@ export const NavBar = () => {
 {/* Mobile View */}
 <div className={`z-10 ${toggleIcon}`} onClick={nav_toggle}>
       <div>
-         <div className='line1 w-10 h-1 m-2 bg-gray-300'></div>
-         <div className='line2 w-10 h-1 m-2 bg-gray-300'></div>
-         <div className='line3 w-10 h-1 m-2 bg-gray-300'></div>
+         <div className='line1 w-9 h-1 m-1 bg-gray-300'></div>
+         <div className='line2 w-8 h-1 m-1 bg-gray-300'></div>
+         <div className='line3 w-7 h-1 m-1 bg-gray-300'></div>
       </div>
       <div className={active}>
       <a className='' href='#home'>Home</a>

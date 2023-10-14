@@ -3,6 +3,12 @@
     padding: 1.5rem 8rem;
 }
 
+@media (max-width:485px) {
+    .nav_paddings{
+        padding: 1.5rem 3rem;
+    } 
+}
+
 .nav_toggle{
     display: none;
 }
@@ -38,11 +44,13 @@
 }
 
 .toggle .line1{
-    transform: rotate(-45deg) translate(-3px, 15px);
+    transform: rotate(-45deg) translate(4px, 15px);
+    width:1.75rem ;
 }
 .toggle .line2{
     opacity: 0;
 }
 .toggle .line3{
-    transform: rotate(45deg) translate(-3px, -15px);
+    transform: rotate(45deg) translate(5px, -15px);
+    width:1.75rem ;
 }
