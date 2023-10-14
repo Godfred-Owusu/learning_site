@@ -4,7 +4,7 @@ import './Hero.css'
 export const Hero = () => {
   return (
     <section id='home'>
-    <div className='hero-container paddings relative'>
+    <div className='hero-container w-[60%] paddings relative'>
       <p className='text-brand-orange'>For Better Future</p>
       <p className='text-5xl font-bold mt-5 leading-snug'>HIGH QUALITY COURSE</p>
       <p className='mt-5 font-light'>Every day brings with it a fresh <br /> set of learning possibilities.</p>

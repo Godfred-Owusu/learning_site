@@ -14,3 +14,9 @@ body{
 .paddings{
     padding: 3rem 8rem;
 }
+
+@media (max-width:485px) {
+    .paddings{
+        padding: 3rem 3rem;
+    } 
+}

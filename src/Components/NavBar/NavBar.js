@@ -30,7 +30,7 @@ export const NavBar = () => {
 
 
 {/* Mobile View */}
-<div className={toggleIcon} onClick={nav_toggle}>
+<div className={`z-10 ${toggleIcon}`} onClick={nav_toggle}>
       <div>
          <div className='line1 w-10 h-1 m-2 bg-gray-300'></div>
          <div className='line2 w-10 h-1 m-2 bg-gray-300'></div>
