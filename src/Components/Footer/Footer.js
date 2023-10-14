@@ -10,40 +10,40 @@ export const Footer = () => {
       <div>
         <p className=' my-2  mt-4 font-bold'>Company Info</p>
         <p className='font-light my-2 text-sm'>About Us</p>
-        <p className='font-light my-2 text-sm'>About Us</p>
-        <p className='font-light my-2 text-sm'>About Us</p>
-        <p className='font-light my-2 text-sm'>About Us</p>
+        <p className='font-light my-2 text-sm'>We are hiring</p>
+        <p className='font-light my-2 text-sm'>Carrier</p>
+        <p className='font-light my-2 text-sm'>blog</p>
       </div>
 
       <div>
         <p className=' my-2 mt-4 font-bold'>Legal</p>
         <p className='font-light my-2 text-sm'>About Us</p>
-        <p className='font-light my-2 text-sm'>About Us</p>
-        <p className='font-light my-2 text-sm'>About Us</p>
-        <p className='font-light my-2 text-sm'>About Us</p>
+        <p className='font-light my-2 text-sm'>We are hiring</p>
+        <p className='font-light my-2 text-sm'>Carrier</p>
+        <p className='font-light my-2 text-sm'>blog</p>
       </div>
 
       <div>
         <p className=' my-2 mt-4 font-bold'>Features</p>
-        <p className='font-light my-2 text-sm'>About Us</p>
-        <p className='font-light my-2 text-sm'>About Us</p>
-        <p className='font-light my-2 text-sm'>About Us</p>
-        <p className='font-light my-2 text-sm'>About Us</p>
+        <p className='font-light my-2 text-sm'>Business Marketing</p>
+        <p className='font-light my-2 text-sm'>User Analytic</p>
+        <p className='font-light my-2 text-sm'>Live Chat</p>
+        <p className='font-light my-2 text-sm'>AUnlimited Support</p>
       </div>
 
       <div>
         <p className=' my-2 mt-4 font-bold'>Resources</p>
-        <p className='font-light my-2 text-sm'>About Us</p>
-        <p className='font-light my-2 text-sm'>About Us</p>
-        <p className='font-light my-2 text-sm'>About Us</p>
-        <p className='font-light my-2 text-sm'>About Us</p>
+        <p className='font-light my-2 text-sm'>IOS & Android</p>
+        <p className='font-light my-2 text-sm'>Watch Demo</p>
+        <p className='font-light my-2 text-sm'>Customers</p>
+        <p className='font-light my-2 text-sm'>API</p>
       </div>
 
       <div>
       <p className=' my-2 font-bold'>Get In Touch</p>
         <div className='flex items-center gap-2'>
           <BsTelephone color='#FF6551'/>
-        <p className='font-light my-2 text-sm'>About Us</p>
+        <p className='font-light my-2 text-sm'>+233 591130145</p>
         </div>
 
 
